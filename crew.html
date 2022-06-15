@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&family=Barlow:wght@300;400&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="app.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="crew-page">
+      <header>
+        <nav id="space-tourism-menu">
+          <div class="menu-container">
+            <div class="header-logo">
+              <img src="images/shared/logo.svg" alt="" class="header-log" />
+            </div>
+            <div class="menubar">
+              <ul>
+                <a href="index.html" id="home">
+                  <li><strong>00</strong> HOME</li></a
+                >
+                <a href="destination.html" id="destination"
+                  ><li><strong>01</strong> DESTINATION</li></a
+                >
+                <a href="crew.html" id="crew"
+                  ><li><strong>02</strong> CREW</li></a
+                >
+                <a href="technology.html" id="technology"
+                  ><li><strong>03</strong> TECHNOLOGY</li></a
+                >
+              </ul>
+            </div>
+          </div>
+          <div class="menu-line">
+            <hr />
+          </div>
+        </nav>
+      </header>
+      <section class="crew__page content-padding">
+        <div class="crew-container">
+          <div class="crew-wrapper">
+            <div class="pick-destination-title">
+              <h1
+                ><span class="destination-number">01</span
+                ><span class="destination-pick">Meet your crew</span></h1
+              >
+            </div>
+            <div class="crew-detail-img-box">
+              <div class="crew-content-box">
+                <div class="crew-rank-box">
+                  <h1 id="crew_rank">Commander</h1>
+                </div>
+                <div class="crew-name-box">
+                  <h1 id="crew_name">Douglas Hurley</h1>
+                </div>
+                <div class="crew-desc">
+                  <p id="crew_details"
+                    >Douglas Gerald Hurley is an American engineer, former
+                    Marine Corps pilot and former NASA astronaut. He launched
+                    into space for the third time as commander of Crew Dragon
+                    Demo-2.</p
+                  >
+                </div>
+                <div class="crew-navigation-container">
+                  <div class="navigation-box">
+                    <div id="crew_1" class="crew-nav crew-active"></div>
+                    <div id="crew_2" class="crew-nav"></div>
+                    <div id="crew_3" class="crew-nav"></div>
+                    <div id="crew_4" class="crew-nav"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="crew-img-box">
+                <img
+                  id="crew_image"
+                  src="images/crew/image-douglas-hurley.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="mobile-menu">
+        <div class="mobile-menu-wrapper">
+          <ul>
+            <a href="index.html">
+              <li><span class="mobile_num">00</span> Home</li>
+            </a>
+            <a href="destination.html">
+              <li><span class="mobile_num">01</span> Destination</li>
+            </a>
+            <a href="crew.html">
+              <li><span class="mobile_num">02</span> Crew</li>
+            </a>
+            <a href="technology.html">
+              <li><span class="mobile_num">03</span> Technology</li>
+            </a>
+          </ul>
+        </div>
+        <div class="close-menu">
+          <a id="menu_close" href="">&times;</a>
+        </div>
+      </div>
+      <div class="mobile-menu-open">
+        <a id="menu_open" href="">&#9776;</a>
+      </div>
+    </section>
+    <script src="crew.js"></script>
+  </body>
+</html>

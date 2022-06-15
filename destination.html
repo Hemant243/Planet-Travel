@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&family=Barlow:wght@300;400&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="app.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="destination-page">
+      <header>
+        <nav id="space-tourism-menu">
+          <div class="menu-container">
+            <div class="header-logo">
+              <img src="images/shared/logo.svg" alt="" class="header-log" />
+            </div>
+            <div class="menubar">
+              <ul>
+                <a href="index.html" id="home">
+                  <li><strong>00</strong> HOME</li></a
+                >
+                <a href="destination.html" id="destination"
+                  ><li><strong>01</strong> DESTINATION</li></a
+                >
+                <a href="crew.html" id="crew"
+                  ><li><strong>02</strong> CREW</li></a
+                >
+                <a href="technology.html" id="technology"
+                  ><li><strong>03</strong> TECHNOLOGY</li></a
+                >
+              </ul>
+            </div>
+          </div>
+          <div class="menu-line">
+            <hr />
+          </div>
+        </nav>
+      </header>
+      <section class="destination-box content-padding ex-padding">
+        <div class="destination-box-wrapper">
+          <div class="pick-destination-title">
+            <h1
+              ><span class="destination-number">01</span
+              ><span class="destination-pick">Pick your destination</span></h1
+            >
+          </div>
+          <div class="destination-pick-container">
+            <div class="destination-right-box">
+              <div class="planet-img-box">
+                <img
+                  src="images/destination/image-moon.png"
+                  alt=""
+                  class="planet-rotation"
+                  id="planet-image"
+                />
+              </div>
+            </div>
+            <div class="destination-box-left">
+              <div class="planets-menu-box">
+                <div class="planets-menu-wrapper">
+                  <ul>
+                    <a href="" id="moon" class="planet_menu_item active"
+                      ><li>Moon</li></a
+                    >
+                    <a href="" id="mars" class="planet_menu_item"
+                      ><li>Mars</li></a
+                    >
+                    <a href="" id="europa" class="planet_menu_item"
+                      ><li>Europa</li></a
+                    >
+                    <a href="" id="titan" class="planet_menu_item"
+                      ><li>Titan</li></a
+                    >
+                  </ul>
+                </div>
+              </div>
+              <div class="planet-details">
+                <div class="planet-name">
+                  <h1 id="planet_name">MOON</h1>
+                </div>
+                <div class="planet-detail">
+                  <p class="planet-desc" id="planet__desc"
+                    >See our planet as you’ve never seen it before. A perfect
+                    relaxing trip away to help regain perspective and come back
+                    refreshed. While you’re there, take in some history by
+                    visiting the Luna 2 and Apollo 11 landing sites.</p
+                  >
+                  <hr />
+                  <div class="distance-travel-time-box">
+                    <div class="average-dist-box">
+                      <div class="dist-title">
+                        <p>AVG. DISTANCE</p>
+                      </div>
+                      <div class="dist-num">
+                        <p id="total__dist">384,400 km</p>
+                      </div>
+                    </div>
+                    <div class="est-time">
+                      <div class="est-title">
+                        <p>Est. travel time</p>
+                      </div>
+                      <div class="est-num">
+                        <p id="total__time">3 days</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="mobile-menu">
+        <div class="mobile-menu-wrapper">
+          <ul>
+            <a href="index.html">
+              <li><span class="mobile_num">00</span> Home</li>
+            </a>
+            <a href="destination.html">
+              <li><span class="mobile_num">01</span> Destination</li>
+            </a>
+            <a href="crew.html">
+              <li><span class="mobile_num">02</span> Crew</li>
+            </a>
+            <a href="technology.html">
+              <li><span class="mobile_num">03</span> Technology</li>
+            </a>
+          </ul>
+        </div>
+        <div class="close-menu">
+          <a id="menu_close" href="">&times;</a>
+        </div>
+      </div>
+      <div class="mobile-menu-open">
+        <a id="menu_open" href="">&#9776;</a>
+      </div>
+    </section>
+    <script src="destination.js"></script>
+  </body>
+</html>

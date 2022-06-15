@@ -1,0 +1,1082 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+#main {
+  background: url(images/home/background-home-desktop.jpg) no-repeat center
+    center;
+  background-size: cover;
+}
+
+#destination-page {
+  background: url(images/destination/background-destination-desktop.jpg)
+    no-repeat center center;
+  background-size: cover !important;
+}
+#crew-page {
+  background: url(images/crew/background-crew-desktop.jpg) no-repeat center
+    center;
+  background-size: cover;
+}
+#technology-page {
+  background: url(images/technology/background-technology-desktop.jpg) no-repeat
+    center center;
+  background-size: cover !important;
+}
+
+.header-logo {
+  max-height: 48px;
+  width: auto;
+  height: auto;
+}
+
+.header-logo img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.menubar ul {
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0 0 75px;
+}
+
+.menubar ul {
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menubar ul a,
+.planets-menu-box ul a {
+  text-decoration: none;
+  color: #fff;
+  padding: 35px 27px;
+}
+.planets-menu-box ul a {
+  padding: 7px;
+}
+.menubar ul a:hover,
+.planets-menu-box ul a:hover {
+  color: #fff;
+}
+
+.menubar ul li {
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+}
+
+.menubar {
+  backdrop-filter: blur(5px);
+  background-color: #9797971a;
+  width: 55%;
+}
+
+.menu-line hr {
+  width: 38%;
+  position: absolute;
+  top: 13%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background-color: #9797978f;
+  border-color: #97979700;
+  /* height: 0; */
+}
+
+.space-tourism-heading__secondary h3,
+.space-tourism-heading__primary h1,
+.space-tourism-heading__ternary p {
+  color: #fff;
+}
+
+.space-tourism-heading__secondary h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  letter-spacing: 4.72px;
+  font-size: 28px;
+}
+.space-tourism-heading__primary h1 {
+  font-family: "Bellefair", serif;
+  font-size: 150px;
+}
+
+.space-tourism-heading__ternary p,
+.crew-desc p {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+section.space-tourism-content-box {
+  display: flex;
+  align-items: center;
+  /* padding: 7rem 0 2rem 11rem; */
+}
+
+.space-tourism-heading__ternary {
+  width: 444px;
+  line-height: 32px;
+}
+
+.space-tourism-heading__primary,
+.space-tourism-heading__ternary {
+  padding-top: 25px;
+}
+
+.space-tourism-content-explore-inner h1,
+.space-tourism-content-explore-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.space-tourism-content-explore-inner {
+  height: 274px;
+  width: 274px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.space-tourism-content-explore-outer {
+  min-height: 450px;
+  width: 450px;
+  height: auto;
+  border-radius: 50%;
+  position: relative;
+
+  background-color: #97979700;
+}
+
+.space-tourism-content-explore-outer:hover {
+  background-color: #97979733;
+  transition: 0.5s ease-in-out;
+}
+.space-tourism-content {
+  flex: 73%;
+}
+.space-tourism-content-explore {
+  flex: 50%;
+}
+
+.active {
+  border-bottom: 2px solid #fff;
+}
+
+.pick-destination-title {
+  color: #fff;
+}
+
+.content-padding {
+  padding: 7rem 0 2rem 11rem;
+}
+
+.planet-img-box {
+  min-height: 440px;
+  width: auto;
+  height: auto;
+  padding: 100px 0 0 63px;
+}
+
+.planet-img-box img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.pick-destination-title h1 .destination-pick {
+  font-size: 28px;
+  font-weight: 300;
+  font-family: "Barlow Condensed", sans-serif;
+  padding-left: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4.72px;
+}
+
+.pick-destination-title h1 .destination-number {
+  font-size: 28px;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 4.72px;
+  color: #656363;
+}
+.planet-rotation {
+  animation: rotation 30s infinite linear;
+}
+.destination-pick-container {
+  display: flex;
+  justify-content: space-between;
+}
+.planets-menu-box ul {
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 16px;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+}
+.destination-box-left {
+  width: 33%;
+  margin: 0 auto;
+}
+.ex-padding {
+  padding-bottom: 6rem;
+}
+.destination-box-left {
+  color: #fff;
+}
+
+.planet-name h1 {
+  font-size: 100px;
+  font-weight: 300;
+  font-family: "Bellefair", serif;
+}
+.planet-details {
+  padding: 45px 0 0 32px;
+}
+.planet-detail .planet-desc {
+  color: #d0d6f9;
+  width: 444px;
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  line-height: 32px;
+  padding-top: 18px;
+}
+.planet-detail hr {
+  margin-top: 39px;
+  height: 0.5px;
+  border: none;
+  background-color: #979797;
+  width: 444px;
+}
+.distance-travel-time-box {
+  display: flex;
+  padding-top: 30px;
+}
+.dist-title p,
+.est-title p {
+  font-size: 14px;
+  letter-spacing: 2.36px;
+  font-family: Barlow Condensed;
+  color: #d0d6f9;
+  text-transform: uppercase;
+}
+.dist-num p,
+.est-num p {
+  font-family: Bellefair;
+  font-size: 28px;
+  line-height: 1;
+  text-transform: uppercase;
+  padding-top: 12px;
+}
+.est-time {
+  padding-left: 95px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.crew-detail-img-box {
+  display: flex;
+  justify-content: center;
+}
+
+.crew-content-box,
+.crew-img-box {
+  width: 50%;
+  padding-top: 130px;
+}
+
+.crew-img-box {
+  text-align: center;
+  height: 568px;
+  position: relative;
+}
+.crew-img-box img {
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -59%);
+}
+.crew-rank-box h1 {
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #ffffff78;
+  font-family: "Bellefair", serif;
+  font-weight: 300;
+}
+
+.crew-name-box h1 {
+  font-size: 56px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Bellefair", serif;
+  font-weight: 300;
+}
+
+.crew-desc {
+  width: 64%;
+}
+
+.crew-desc p {
+  color: #d0d6f9;
+  line-height: 32px;
+}
+
+.crew-name-box,
+.crew-desc {
+  padding-top: 20px;
+}
+
+.navigation-box {
+  display: flex;
+  margin-top: 8rem;
+}
+.crew-nav {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #979797;
+  margin-right: 23px;
+  cursor: pointer;
+}
+
+.crew-active {
+  background-color: #ffff;
+}
+.space-tech-image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tech-box {
+  display: flex;
+}
+
+.tech-box ul {
+  list-style: none;
+  color: #fff;
+  cursor: pointer;
+}
+.active-tech {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.tech {
+  background-color: transparent;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Bellefair", serif;
+  margin-top: 33px;
+  border: 1px solid #ffffff57;
+}
+
+.tech-box ul li:first-child {
+  margin-top: 0;
+}
+.launch-type h3 {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  color: #d0d6f9;
+  letter-spacing: 2.7px;
+}
+
+.lauch-name h1 {
+  font-size: 56px;
+  font-weight: 300;
+  font-family: "Bellefair", serif;
+  color: #fff;
+}
+.launch-desc p {
+  font-size: 18px;
+  line-height: 32px;
+  font-family: "Barlow", sans-serif;
+  color: #d0d6f9;
+}
+
+.tech-image-box img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.tech-image-box {
+  min-height: 527px;
+  height: auto;
+  width: 515px;
+}
+.launch-desc {
+  width: 65%;
+  padding-top: 24px;
+}
+.lauch-details-container {
+  padding-left: 5rem;
+}
+.lauch-name {
+  padding-top: 12px;
+}
+.mobile-menu a {
+  color: #fff !important;
+}
+.mobile-menu-open a {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.mobile-menu-open,
+.mobile-menu {
+  display: none;
+}
+
+/* Media Query */
+@media (max-width: 1320px) {
+  .menu-line hr {
+    display: none;
+  }
+  .menubar {
+    width: 65%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .menu-line hr {
+    display: none;
+  }
+  section.space-tourism-content-box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .menu-container {
+    padding: 0 0 0 22px;
+  }
+  .menubar {
+    width: 80%;
+    padding: 25px 0;
+  }
+  .menubar ul li {
+    font-size: 14px;
+    letter-spacing: 2.36px;
+  }
+  .menubar ul a,
+  .planets-menu-box ul a {
+    padding: 10px 5px;
+  }
+  .content-padding {
+    padding: 0;
+  }
+  .space-tourism-heading__secondary h3 {
+    letter-spacing: 3.36px;
+    font-size: 20px;
+  }
+  .space-tourism-content {
+    margin-top: 106px;
+  }
+  .space-tourism-heading__ternary p,
+  .crew-desc p {
+    font-size: 16px;
+    color: #d0d6f9;
+    line-height: 28px;
+  }
+  .space-tourism-content-explore-inner {
+    height: 242px;
+    width: 242px;
+    cursor: pointer;
+  }
+  .space-tourism-content-explore {
+    margin-top: 25px;
+  }
+  .destination-pick-container {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .planet-img-box {
+    text-align: center;
+    /* padding: 100px 0 0 63px; */
+  }
+  .planet-img-box {
+    padding: 0;
+  }
+  .destination-box-left {
+    width: 100%;
+  }
+  .planet-img-box {
+    min-height: initial;
+    width: auto;
+    height: 300px !important;
+    padding: 0;
+  }
+  .planets-menu-box {
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 53px;
+  }
+  .planet-detail .planet-desc {
+    width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .planet-details {
+    padding: 32px 97px 48px 97px;
+    text-align: center;
+  }
+  .pick-destination-title h1 .destination-number,
+  .pick-destination-title h1 .destination-pick {
+    font-size: 20px;
+  }
+  .pick-destination-title {
+    padding: 40px 0 0 38px;
+  }
+  .planet-detail hr {
+    width: 100%;
+  }
+  .distance-travel-time-box {
+    justify-content: center;
+  }
+  .crew-detail-img-box {
+    align-items: center;
+    flex-direction: column;
+  }
+  .crew-content-box,
+  .crew-img-box {
+    width: 100%;
+    padding-top: 60px;
+    text-align: center;
+  }
+  .crew-desc {
+    width: 100%;
+  }
+  .crew-img-box img {
+    max-height: 100%;
+    max-width: 100%;
+    position: initial;
+    transform: initial;
+  }
+  .navigation-box {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  .crew-content-box {
+    width: 60%;
+    padding-top: 60px;
+    text-align: center;
+  }
+  .crew-rank-box h1 {
+    font-size: 24px;
+  }
+  .crew-name-box h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-line hr {
+    display: none;
+  }
+  section.space-tourism-content-box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .menu-container {
+    padding: 0 0 0 22px;
+  }
+  .menubar {
+    width: 80%;
+    padding: 25px 0;
+  }
+  .menubar ul li {
+    font-size: 14px;
+    letter-spacing: 2.36px;
+  }
+  .menubar ul a,
+  .planets-menu-box ul a {
+    padding: 10px 5px;
+  }
+  .content-padding {
+    padding: 0;
+  }
+  .space-tourism-heading__secondary h3 {
+    letter-spacing: 3.36px;
+    font-size: 20px;
+  }
+  .space-tourism-content {
+    margin-top: 106px;
+  }
+  .space-tourism-heading__ternary p,
+  .crew-desc p {
+    font-size: 16px;
+    color: #d0d6f9;
+    line-height: 28px;
+  }
+  .space-tourism-content-explore-inner {
+    height: 242px;
+    width: 242px;
+    cursor: pointer;
+  }
+  .space-tourism-content-explore {
+    margin-top: 25px;
+  }
+  .destination-pick-container {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .planet-img-box {
+    text-align: center;
+    /* padding: 100px 0 0 63px; */
+  }
+  .planet-img-box {
+    padding: 0;
+  }
+  .destination-box-left {
+    width: 100%;
+  }
+  .planet-img-box {
+    min-height: initial;
+    width: auto;
+    height: 300px !important;
+    padding: 0;
+  }
+  .planets-menu-box {
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 53px;
+  }
+  .planet-detail .planet-desc {
+    width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .planet-details {
+    padding: 32px 97px 48px 97px;
+    text-align: center;
+  }
+  .pick-destination-title h1 .destination-number,
+  .pick-destination-title h1 .destination-pick {
+    font-size: 20px;
+  }
+  .pick-destination-title {
+    padding: 40px 0 0 38px;
+  }
+  .planet-detail hr {
+    width: 100%;
+  }
+  .distance-travel-time-box {
+    justify-content: center;
+  }
+  .crew-detail-img-box {
+    align-items: center;
+    flex-direction: column;
+  }
+  .crew-content-box,
+  .crew-img-box {
+    width: 100%;
+    padding-top: 60px;
+    text-align: center;
+  }
+  .crew-desc {
+    width: 100%;
+  }
+  .crew-img-box img {
+    max-height: 100%;
+    max-width: 100%;
+    position: initial;
+    transform: initial;
+  }
+  .navigation-box {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  .crew-content-box {
+    width: 60%;
+    padding-top: 60px;
+    text-align: center;
+  }
+  .crew-rank-box h1 {
+    font-size: 24px;
+  }
+  .crew-name-box h1 {
+    font-size: 40px;
+  }
+}
+
+/* @media (max-width: 575px) {
+  .mobile-menu-open {
+    display: block;
+  }
+  .menubar {
+    display: none;
+  }
+  .menu-container {
+    padding: 23px 0 0 20px;
+  }
+  .mobile-menu-open a {
+    font-size: 36px;
+    padding: 20px 15px 0 0;
+  }
+} */
+
+/* mobile device */
+@media (max-width: 425px) {
+  .mobile-menu-open {
+    display: block;
+  }
+  .destination-pick-container {
+    flex-direction: column;
+  }
+  .destination-box-left {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .content-padding {
+    padding: 0;
+  }
+  .pick-destination-title {
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+  }
+  .planet-detail .planet-desc {
+    width: 100%;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 8px;
+  }
+  .planet-name {
+    padding-top: 20px;
+  }
+
+  .planet-detail hr {
+    width: 100%;
+  }
+  .planet-img-box {
+    min-height: 170px;
+    width: auto;
+    height: 170px;
+    padding: 30px 0 0 0;
+    text-align: center;
+  }
+  .menu-line hr {
+    display: none;
+  }
+  .menu-container {
+    padding: 23px 0 0 20px;
+  }
+  .mobile-menu-open a {
+    font-size: 75px;
+  }
+  .mobile-menu-open a {
+    font-size: 36px;
+    padding: 20px 15px 0 0;
+  }
+  .pick-destination-title h1 .destination-pick,
+  .pick-destination-title h1 .destination-number {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Barlow Condensed", sans-serif;
+    padding-left: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4.72px;
+  }
+  .menubar {
+    display: none;
+  }
+  .planet-details {
+    padding: 0;
+  }
+  .planets-menu-box {
+    padding-top: 25px;
+  }
+  .planets-menu-box ul {
+    font-size: 14px;
+    letter-spacing: 2.36px;
+  }
+  .planet-name h1 {
+    font-size: 56px;
+    font-weight: 300;
+    font-family: "Bellefair", serif;
+    text-align: center;
+  }
+
+  .planet-detail {
+    padding: 0 17px;
+  }
+  .planet-detail hr {
+    margin-top: 32px;
+  }
+  .distance-travel-time-box {
+    flex-direction: column;
+    text-align: center;
+    padding: 32px 0;
+  }
+  .est-time {
+    padding-left: 0;
+    margin-top: 32px;
+  }
+  .mobile-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #ffffff1c;
+    backdrop-filter: blur(15px);
+    height: 100%;
+    width: 70%;
+    display: none;
+  }
+  .mobile-menu ul {
+    list-style-type: none;
+  }
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 50px;
+    padding-right: 25px;
+  }
+  #destination-page {
+    overflow: hidden;
+  }
+  .open {
+    display: block;
+  }
+  .pick-destination-title {
+    text-align: center;
+    padding: 30px 0 0 0;
+  }
+  #menu_close {
+    position: absolute;
+    top: 10px;
+    right: 28px;
+    font-size: 52px;
+    color: #d0d6f9 !important;
+  }
+  .mobile-menu-wrapper {
+    padding: 0 34px;
+    margin-top: 7rem;
+  }
+  .mobile-menu-wrapper ul li {
+    font-size: 16px;
+    padding-top: 39px;
+  }
+  .mobile-menu-wrapper {
+    padding: 0 34px;
+    margin-top: 5rem;
+  }
+  .mobile_num,
+  .mobile-menu-wrapper ul li {
+    padding-right: 8px;
+    font-size: 16px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    letter-spacing: 2.7px;
+  }
+  .mobile-menu-wrapper ul li {
+    font-weight: 400;
+  }
+  .crew-detail-img-box {
+    flex-direction: column-reverse;
+  }
+  .crew-content-box,
+  .crew-img-box {
+    width: 100%;
+    padding-top: 30px;
+    margin-top: 22px;
+    text-align: center;
+  }
+  .crew-img-box img {
+    max-height: 100%;
+    max-width: 100%;
+    position: initial;
+    transform: initial;
+  }
+  .crew-img-box {
+    text-align: center;
+    height: 223px;
+    margin-top: 32px;
+    width: auto;
+    /* position: relative; */
+  }
+  .navigation-box {
+    display: flex;
+    /* margin-top: 8rem; */
+    position: absolute;
+    top: 27rem;
+    margin-top: 0;
+    left: 36%;
+  }
+  .crew-nav {
+    height: 10px;
+    width: 10px;
+  }
+  .crew-desc {
+    width: 100%;
+  }
+  .crew-rank-box h1 {
+    font-size: 16px;
+  }
+  .crew-name-box h1 {
+    font-size: 24px;
+  }
+  .space-tourism-heading__ternary p,
+  .crew-desc p {
+    font-size: 15px;
+    line-height: 25px !important;
+  }
+  .crew-desc p {
+    padding: 16px 10px 104px 10px;
+  }
+  .space-tech-image-box {
+    flex-direction: column-reverse;
+  }
+  .tech-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tech-box-items ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tech {
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+    margin-top: 0;
+  }
+  .tech-box-items ul li {
+    margin-right: 16px;
+  }
+  .tech-box-items ul li:last-child {
+    margin-right: 0;
+  }
+  .tech-box-items {
+    margin-top: 34px;
+  }
+  .launch-desc {
+    width: 100%;
+    /* padding-top: 24px; */
+  }
+  .lauch-details-container {
+    padding-left: 0;
+    text-align: center;
+    padding-top: 26px;
+  }
+  .tech-image-box {
+    min-height: 148px;
+    height: auto;
+    width: auto;
+    padding-top: 32px;
+  }
+
+  .launch-type h3 {
+    font-size: 14px;
+  }
+  .lauch-name h1 {
+    font-size: 24px;
+  }
+
+  .launch-desc p {
+    font-size: 15px;
+    line-height: 25px;
+    padding: 24px 22px;
+  }
+  section.space-tourism-content-box {
+    flex-direction: column;
+  }
+  .space-tourism-heading__secondary h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .space-tourism-heading__primary h1 {
+    font-size: 80px;
+    text-align: center;
+  }
+  .space-tourism-heading__ternary p {
+    text-align: center;
+  }
+  .space-tourism-content-explore-inner {
+    height: 150px;
+    width: 150px;
+  }
+  .space-tourism-heading__ternary {
+    width: 100%;
+  }
+  .space-tourism-content-explore-outer {
+    min-height: 300px;
+    width: 300px;
+  }
+  .space-tourism-content {
+    padding: 48px 24px 0 24px;
+  }
+  .space-tourism-content-explore-inner h1,
+  .space-tourism-content-explore-inner {
+    font-size: 20px;
+    letter-spacing: 1.25px;
+  }
+  #main {
+    background: url(images/home/background-home-mobile.jpg) no-repeat center
+      center;
+    background-size: cover;
+  }
+  #destination-page {
+    background: url(images/destination/background-destination-mobile.jpg)
+      no-repeat center center;
+  }
+  #crew-page {
+    background: url(images/crew/background-crew-mobile.jpg) no-repeat center
+      center;
+    background-size: cover !important;
+  }
+  #technology-page {
+    background: url(images/technology/background-technology-mobile.jpg)
+      no-repeat center center;
+  }
+}
+/* mobile device ends */
+
+/* Tablet starts */
+
+/* Tablet ends */
+
+/* font-family: "Barlow Condensed", sans-serif; */
+/* font-family: "Bellefair", serif; */
+/* font-family: "Barlow", sans-serif; */
